@@ -1,0 +1,1364 @@
+{
+  "users": [
+    {
+      "id": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "name": "Demo Finance Team",
+      "email": "demo@cura.health",
+      "salt": "f53a52613f7268fb5d8f55aec38a1de5",
+      "passwordHash": "47c0566c0192692d14a8c261837717a536de3b9d2658249acf06edec358c40353d9061824bd030599bbb53126f3801c1925594720e856e2845dbfa6b99a01548",
+      "createdAt": "2026-04-27T15:55:37.258Z",
+      "updatedAt": "2026-04-27T15:55:37.259Z",
+      "data": {
+        "transactions": [
+          {
+            "id": "793d1936-170b-4380-aa68-663872980151",
+            "date": "2026-04-01",
+            "type": "Income",
+            "amount": 185000,
+            "category": "Salary",
+            "account": "Bank",
+            "description": "Monthly salary",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "125e69c0-771e-43d9-92d6-a3f09a278ec1",
+            "date": "2026-04-02",
+            "type": "Expense",
+            "amount": 46000,
+            "category": "Rent",
+            "account": "Bank",
+            "description": "Apartment rent",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "10321c8b-67c1-4d9f-ab72-9335a628bd36",
+            "date": "2026-04-03",
+            "type": "Investment",
+            "amount": 35000,
+            "category": "Investment",
+            "account": "Investment",
+            "description": "Index fund SIP",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "040951d2-fb03-4e73-8132-7fb58726017c",
+            "date": "2026-04-05",
+            "type": "Expense",
+            "amount": 4200,
+            "category": "Utilities",
+            "account": "UPI",
+            "description": "Power and internet",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "aca1fdd9-0b8f-4faf-a8af-d9c46760b40f",
+            "date": "2026-04-06",
+            "type": "Expense",
+            "amount": 7800,
+            "category": "Food",
+            "account": "Credit Card",
+            "description": "Groceries",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "e694e90d-62dc-4094-b5d6-8d8b3e9fff9c",
+            "date": "2026-04-10",
+            "type": "Expense",
+            "amount": 5600,
+            "category": "Travel",
+            "account": "UPI",
+            "description": "City travel",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "7b1cfad1-de5a-4db5-9c5a-3dd2b549d8bf",
+            "date": "2026-04-12",
+            "type": "Expense",
+            "amount": 3800,
+            "category": "Health",
+            "account": "Credit Card",
+            "description": "Pharmacy",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "05a933f5-82e6-4a8b-a87e-33d9b8357ccc",
+            "date": "2026-04-16",
+            "type": "Expense",
+            "amount": 9200,
+            "category": "Shopping",
+            "account": "Credit Card",
+            "description": "Work essentials",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "0fc83886-3707-44cf-9405-ceb048c5a77b",
+            "date": "2026-04-18",
+            "type": "Expense",
+            "amount": 4500,
+            "category": "Entertainment",
+            "account": "UPI",
+            "description": "Weekend outing",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "1bb910b5-f6d1-4b30-b7a2-7b81d73091b6",
+            "date": "2026-04-21",
+            "type": "Investment",
+            "amount": 15000,
+            "category": "Investment",
+            "account": "Investment",
+            "description": "Emergency fund top-up",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "44fe18ba-f9e1-4dcf-aa05-5b5c7f469b63",
+            "date": "2026-04-24",
+            "type": "Expense",
+            "amount": 6800,
+            "category": "Education",
+            "account": "Bank",
+            "description": "Course subscription",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "ce7d04f8-e9c8-44c0-8364-998ba0b84aee",
+            "date": "2026-03-01",
+            "type": "Income",
+            "amount": 178000,
+            "category": "Salary",
+            "account": "Bank",
+            "description": "Monthly salary",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "ffe243b0-7835-4641-8223-3e913ac2d699",
+            "date": "2026-03-03",
+            "type": "Expense",
+            "amount": 45000,
+            "category": "Rent",
+            "account": "Bank",
+            "description": "Apartment rent",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "8c4fc8c8-ab4b-42e4-a0cb-1e4090b55e2a",
+            "date": "2026-03-05",
+            "type": "Investment",
+            "amount": 30000,
+            "category": "Investment",
+            "account": "Investment",
+            "description": "Mutual fund",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "e99997eb-e4d9-41b9-9228-bc8055d9daab",
+            "date": "2026-03-14",
+            "type": "Expense",
+            "amount": 9400,
+            "category": "Food",
+            "account": "Credit Card",
+            "description": "Groceries and dining",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "2297acae-c1ac-414c-af91-20abda0acc7d",
+            "date": "2026-03-19",
+            "type": "Expense",
+            "amount": 6200,
+            "category": "Travel",
+            "account": "UPI",
+            "description": "Fuel and transport",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "782db046-27df-47f7-a644-75b7087add60",
+            "date": "2026-02-01",
+            "type": "Income",
+            "amount": 172000,
+            "category": "Salary",
+            "account": "Bank",
+            "description": "Monthly salary",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "2fcd89cf-464c-4c1b-8248-49bba88f3596",
+            "date": "2026-02-08",
+            "type": "Expense",
+            "amount": 7400,
+            "category": "Food",
+            "account": "Credit Card",
+            "description": "Groceries",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "894f7131-4fe9-424d-b746-cfb22661c89d",
+            "date": "2026-02-12",
+            "type": "Expense",
+            "amount": 43000,
+            "category": "Rent",
+            "account": "Bank",
+            "description": "Apartment rent",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "f64a0b3f-6fea-4575-bb8f-d5e942dc4823",
+            "date": "2026-02-20",
+            "type": "Investment",
+            "amount": 28000,
+            "category": "Investment",
+            "account": "Investment",
+            "description": "SIP",
+            "notes": "",
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          }
+        ],
+        "budgets": [
+          {
+            "id": "2cda6e17-a70b-442e-99ae-cf7490b75d48",
+            "category": "Investment",
+            "monthlyBudget": 55000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "98a565ff-9299-4b76-ac62-c630013db28d",
+            "category": "Food",
+            "monthlyBudget": 18000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "12c13e1e-c4a8-45f0-923f-f6b9b873dda1",
+            "category": "Travel",
+            "monthlyBudget": 12000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "625c8083-f8be-40e1-9ecf-6164b41328d2",
+            "category": "Rent",
+            "monthlyBudget": 46000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "891aa5dd-f06b-4147-9bad-4e3b08e47081",
+            "category": "Utilities",
+            "monthlyBudget": 8000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "ff0b4924-c2dd-4351-b070-3d8eec4c660a",
+            "category": "Shopping",
+            "monthlyBudget": 14000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "e8ab986f-9086-445f-9ff2-12345ab25c02",
+            "category": "Entertainment",
+            "monthlyBudget": 8000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "9c17a350-82f9-4506-8718-0749e7cb009a",
+            "category": "Health",
+            "monthlyBudget": 7000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "4fa358fd-6837-452e-8fc9-cee63d3ae5c0",
+            "category": "Education",
+            "monthlyBudget": 9000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "1be06d11-4b51-4aae-9465-b7900d266cf2",
+            "category": "Bills",
+            "monthlyBudget": 6000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "9430488b-ba88-4f64-9646-2811834c962d",
+            "category": "Other",
+            "monthlyBudget": 6000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          }
+        ],
+        "netWorth": [
+          {
+            "id": "957543bc-d489-48e9-91ff-be0bbb17da24",
+            "month": "Jan 2026",
+            "cashBank": 92000,
+            "investments": 28000,
+            "assets": 45000,
+            "liabilities": 42000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "fdaaaa19-8bb5-43ab-b988-a4a139f927ca",
+            "month": "Feb 2026",
+            "cashBank": 102500,
+            "investments": 34200,
+            "assets": 48500,
+            "liabilities": 39200,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "2ba30385-481d-435c-9b35-a5a25cb8fafc",
+            "month": "Mar 2026",
+            "cashBank": 113000,
+            "investments": 40400,
+            "assets": 52000,
+            "liabilities": 36400,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "43ac78ca-964c-46a0-921f-f313c6125386",
+            "month": "Apr 2026",
+            "cashBank": 123500,
+            "investments": 46600,
+            "assets": 55500,
+            "liabilities": 33600,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "f47e5c1b-97b0-4691-ac6b-ed8f00dc986e",
+            "month": "May 2026",
+            "cashBank": 134000,
+            "investments": 52800,
+            "assets": 59000,
+            "liabilities": 30800,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          },
+          {
+            "id": "52573434-0763-411d-b7eb-0213136d619f",
+            "month": "Jun 2026",
+            "cashBank": 144500,
+            "investments": 59000,
+            "assets": 62500,
+            "liabilities": 28000,
+            "createdAt": "2026-04-27T15:55:37.259Z",
+            "updatedAt": "2026-04-27T15:55:37.259Z"
+          }
+        ],
+        "categories": [
+          "Investment",
+          "Food",
+          "Travel",
+          "Rent",
+          "Utilities",
+          "Shopping",
+          "Entertainment",
+          "Health",
+          "Education",
+          "Salary",
+          "Bills",
+          "Other"
+        ],
+        "accounts": [
+          "Cash",
+          "Bank",
+          "UPI",
+          "Credit Card",
+          "Savings",
+          "Investment"
+        ],
+        "settings": {
+          "currency": "INR",
+          "monthlySavingsGoal": 0,
+          "emergencyFundTarget": 0,
+          "defaultAccount": "Bank"
+        }
+      }
+    },
+    {
+      "id": "c7890658-47a6-44d6-bddb-6b18e0693a1a",
+      "name": "Heramb Warke",
+      "email": "herambwarke25@gmail.com",
+      "salt": "f7747a013b42bce4b0aa1bd2a005841f",
+      "passwordHash": "43e3bcabc715c61adbbe0a4f0bfffbb281ee6111443e70bb6d92eb323d443e73f59224b7c0b5df9c0d831bd1aa5a7f3028520bb665b7dfe749d313ac3a0e4a00",
+      "createdAt": "2026-04-27T16:08:08.202Z",
+      "updatedAt": "2026-04-27T18:14:46.017Z",
+      "data": {
+        "transactions": [
+          {
+            "id": "e02277d3-4aa9-4b30-8551-97ace5d7238e",
+            "date": "2026-04-01",
+            "type": "Income",
+            "amount": 185000,
+            "category": "Salary",
+            "account": "Bank",
+            "description": "Monthly salary",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.016Z",
+            "updatedAt": "2026-04-27T18:14:46.016Z"
+          },
+          {
+            "id": "464839f6-db12-4703-91e5-4f36d6e8f413",
+            "date": "2026-04-02",
+            "type": "Expense",
+            "amount": 46000,
+            "category": "Rent",
+            "account": "Bank",
+            "description": "Apartment rent",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.016Z",
+            "updatedAt": "2026-04-27T18:14:46.016Z"
+          },
+          {
+            "id": "bf2b0e14-001d-4c45-b0c1-8a803f692455",
+            "date": "2026-04-03",
+            "type": "Investment",
+            "amount": 35000,
+            "category": "Investment",
+            "account": "Investment",
+            "description": "Index fund SIP",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.016Z",
+            "updatedAt": "2026-04-27T18:14:46.016Z"
+          },
+          {
+            "id": "f15e779d-5f90-4314-aaee-38513359e300",
+            "date": "2026-04-05",
+            "type": "Expense",
+            "amount": 4200,
+            "category": "Utilities",
+            "account": "UPI",
+            "description": "Power and internet",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.016Z",
+            "updatedAt": "2026-04-27T18:14:46.016Z"
+          },
+          {
+            "id": "625698cc-667d-4d60-8983-8a8edee5f3dc",
+            "date": "2026-04-06",
+            "type": "Expense",
+            "amount": 7800,
+            "category": "Food",
+            "account": "Credit Card",
+            "description": "Groceries",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.016Z",
+            "updatedAt": "2026-04-27T18:14:46.016Z"
+          },
+          {
+            "id": "76b1d0d7-891a-475b-b970-1af06c077bea",
+            "date": "2026-04-10",
+            "type": "Expense",
+            "amount": 5600,
+            "category": "Travel",
+            "account": "UPI",
+            "description": "City travel",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.016Z",
+            "updatedAt": "2026-04-27T18:14:46.016Z"
+          },
+          {
+            "id": "8810e06c-c94d-4d51-8ee0-5f9591e9aac4",
+            "date": "2026-04-12",
+            "type": "Expense",
+            "amount": 3800,
+            "category": "Health",
+            "account": "Credit Card",
+            "description": "Pharmacy",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.016Z",
+            "updatedAt": "2026-04-27T18:14:46.016Z"
+          },
+          {
+            "id": "3d9d2fe8-fe22-48e8-950e-f272cb1c9736",
+            "date": "2026-04-16",
+            "type": "Expense",
+            "amount": 9200,
+            "category": "Shopping",
+            "account": "Credit Card",
+            "description": "Work essentials",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.016Z",
+            "updatedAt": "2026-04-27T18:14:46.016Z"
+          },
+          {
+            "id": "7843a0a7-4a00-46c1-8556-95747023cacb",
+            "date": "2026-04-18",
+            "type": "Expense",
+            "amount": 4500,
+            "category": "Entertainment",
+            "account": "UPI",
+            "description": "Weekend outing",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.016Z",
+            "updatedAt": "2026-04-27T18:14:46.016Z"
+          },
+          {
+            "id": "14711f09-01ad-42ad-99da-58b4ebcaea67",
+            "date": "2026-04-21",
+            "type": "Investment",
+            "amount": 15000,
+            "category": "Investment",
+            "account": "Investment",
+            "description": "Emergency fund top-up",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.016Z",
+            "updatedAt": "2026-04-27T18:14:46.016Z"
+          },
+          {
+            "id": "7ef4adf0-7b8e-4f04-bae8-53409534f996",
+            "date": "2026-04-24",
+            "type": "Expense",
+            "amount": 6800,
+            "category": "Education",
+            "account": "Bank",
+            "description": "Course subscription",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "0846ddaf-2985-43a5-9364-b90a4cbfe9d7",
+            "date": "2026-03-01",
+            "type": "Income",
+            "amount": 178000,
+            "category": "Salary",
+            "account": "Bank",
+            "description": "Monthly salary",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "0af1c93f-3c1f-4306-af8f-8c04f0d8128d",
+            "date": "2026-03-03",
+            "type": "Expense",
+            "amount": 45000,
+            "category": "Rent",
+            "account": "Bank",
+            "description": "Apartment rent",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "da1296bb-4ecc-48e2-bd66-c725aabfa978",
+            "date": "2026-03-05",
+            "type": "Investment",
+            "amount": 30000,
+            "category": "Investment",
+            "account": "Investment",
+            "description": "Mutual fund",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "4f80d7be-af8c-4eb3-a6ba-b4877c5010d5",
+            "date": "2026-03-14",
+            "type": "Expense",
+            "amount": 9400,
+            "category": "Food",
+            "account": "Credit Card",
+            "description": "Groceries and dining",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "dde4eb02-85d6-4e51-b719-6c17ee67cfcb",
+            "date": "2026-03-19",
+            "type": "Expense",
+            "amount": 6200,
+            "category": "Travel",
+            "account": "UPI",
+            "description": "Fuel and transport",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "4f42cbf6-8276-4952-bf79-5840aea80175",
+            "date": "2026-02-01",
+            "type": "Income",
+            "amount": 172000,
+            "category": "Salary",
+            "account": "Bank",
+            "description": "Monthly salary",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "255fc35d-59ce-4d98-bdec-6a7e8ec45600",
+            "date": "2026-02-08",
+            "type": "Expense",
+            "amount": 7400,
+            "category": "Food",
+            "account": "Credit Card",
+            "description": "Groceries",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "b1899e24-0bc6-49f3-97d1-b0c25453509b",
+            "date": "2026-02-12",
+            "type": "Expense",
+            "amount": 43000,
+            "category": "Rent",
+            "account": "Bank",
+            "description": "Apartment rent",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "df3039b6-2cfa-46a3-bf19-ec06a086dfab",
+            "date": "2026-02-20",
+            "type": "Investment",
+            "amount": 28000,
+            "category": "Investment",
+            "account": "Investment",
+            "description": "SIP",
+            "notes": "",
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          }
+        ],
+        "budgets": [
+          {
+            "id": "82914d2e-407f-4a0c-a8df-855f1d516fa8",
+            "category": "Investment",
+            "monthlyBudget": 55000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "54a19b08-932f-4c56-ad5e-b1b0a29fe4a0",
+            "category": "Food",
+            "monthlyBudget": 18000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "0fc4e268-beb8-4e66-805f-2dde2197e398",
+            "category": "Travel",
+            "monthlyBudget": 12000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "75fcfe39-35b5-4c2f-8da9-c4ff049b4579",
+            "category": "Rent",
+            "monthlyBudget": 46000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "f391d1a4-5a71-4f69-b1fd-1b33e84b20a6",
+            "category": "Utilities",
+            "monthlyBudget": 8000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "4fc60d2b-12ae-4cb8-a424-c98b6c67d7df",
+            "category": "Shopping",
+            "monthlyBudget": 14000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "7b822ddf-aa9b-4e08-aa09-d94d4e99ff30",
+            "category": "Entertainment",
+            "monthlyBudget": 8000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "45ecf130-7af9-4210-ac2e-e5490c5934ab",
+            "category": "Health",
+            "monthlyBudget": 7000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "a31ceca9-eb14-4e62-8864-c178b332685f",
+            "category": "Education",
+            "monthlyBudget": 9000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "3841001a-b0a0-4fd9-bf0b-b00fb59da58d",
+            "category": "Bills",
+            "monthlyBudget": 6000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "c62d8648-210e-4c48-89cc-203e26372838",
+            "category": "Other",
+            "monthlyBudget": 6000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          }
+        ],
+        "netWorth": [
+          {
+            "id": "4b3176e5-0fa9-407f-bbbe-2c71498cdaf8",
+            "month": "Jan 2026",
+            "cashBank": 92000,
+            "investments": 28000,
+            "assets": 45000,
+            "liabilities": 42000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "4c5387f9-c2f3-48ce-af4e-8a8d8f01150a",
+            "month": "Feb 2026",
+            "cashBank": 102500,
+            "investments": 34200,
+            "assets": 48500,
+            "liabilities": 39200,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "6f98d62a-0a0f-4dce-a087-69c46844c203",
+            "month": "Mar 2026",
+            "cashBank": 113000,
+            "investments": 40400,
+            "assets": 52000,
+            "liabilities": 36400,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "28a67b4b-c76c-4979-9948-26d232efe1f6",
+            "month": "Apr 2026",
+            "cashBank": 123500,
+            "investments": 46600,
+            "assets": 55500,
+            "liabilities": 33600,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "2188a932-9c06-40a2-887e-64c0b870c857",
+            "month": "May 2026",
+            "cashBank": 134000,
+            "investments": 52800,
+            "assets": 59000,
+            "liabilities": 30800,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          },
+          {
+            "id": "9fba9d11-7412-4678-8749-68ac6622d99b",
+            "month": "Jun 2026",
+            "cashBank": 144500,
+            "investments": 59000,
+            "assets": 62500,
+            "liabilities": 28000,
+            "createdAt": "2026-04-27T18:14:46.017Z",
+            "updatedAt": "2026-04-27T18:14:46.017Z"
+          }
+        ],
+        "categories": [
+          "Investment",
+          "Food",
+          "Travel",
+          "Rent",
+          "Utilities",
+          "Shopping",
+          "Entertainment",
+          "Health",
+          "Education",
+          "Salary",
+          "Bills",
+          "Other"
+        ],
+        "accounts": [
+          "Cash",
+          "Bank",
+          "UPI",
+          "Credit Card",
+          "Savings",
+          "Investment"
+        ],
+        "settings": {
+          "currency": "INR",
+          "monthlySavingsGoal": 75000,
+          "emergencyFundTarget": 600000,
+          "defaultAccount": "Bank"
+        }
+      }
+    },
+    {
+      "id": "de5769e9-27a1-4c84-83ac-9350dcb9e2f4",
+      "name": "QA Workspace",
+      "email": "qa-1777306612090@local.test",
+      "salt": "72d8c6ea570faa989ba06855f5e504a4",
+      "passwordHash": "c771bd7882ee0211a46634f96a9b113f8eb2edc4c5ee4f9324fccbfa42ee573da933b9500fa7b1c0c10c028e0bfa4d893e3b635e4b5c1fd3c23eb81155cd3d1d",
+      "createdAt": "2026-04-27T16:16:52.303Z",
+      "updatedAt": "2026-04-27T16:16:52.950Z",
+      "data": {
+        "transactions": [
+          {
+            "id": "5c4cf9d7-2eeb-435e-b542-84c57aa2eab2",
+            "date": "2026-04-26",
+            "type": "Income",
+            "amount": 100000,
+            "category": "Salary",
+            "account": "Bank",
+            "description": "Opening salary",
+            "notes": "Imported",
+            "updatedAt": "2026-04-27T16:16:52.949Z",
+            "createdAt": "2026-04-27T16:16:52.950Z"
+          },
+          {
+            "id": "8ee270dd-e5e9-4e36-8fdb-2fabdff09612",
+            "date": "2026-04-27",
+            "type": "Expense",
+            "amount": 12000,
+            "category": "Food",
+            "account": "UPI",
+            "description": "Groceries",
+            "notes": "Imported",
+            "updatedAt": "2026-04-27T16:16:52.949Z",
+            "createdAt": "2026-04-27T16:16:52.950Z"
+          }
+        ],
+        "budgets": [
+          {
+            "id": "beb722f8-d1a3-462c-9a5e-2126eb5e91c0",
+            "category": "Investment",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "1dc86ae8-7047-4827-8f58-0260bf33a628",
+            "category": "Food",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "6a837641-f31f-4459-92c3-41d1eaa96584",
+            "category": "Travel",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "793d9810-8039-478d-98f6-2e2ce56a7d33",
+            "category": "Rent",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "e1a62282-c920-4079-9668-8e4bd2e3b9ae",
+            "category": "Utilities",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "f063a1e7-9e80-4d6f-821d-b7fa3139497f",
+            "category": "Shopping",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "400d3843-2a71-40a7-a08e-a1f59c176fb4",
+            "category": "Entertainment",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "b9ac3a8d-84de-4324-8598-c5011c3d8228",
+            "category": "Health",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "b08a998f-1497-4ca9-92f7-9cace09c5f8c",
+            "category": "Education",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "b908d1ce-8f15-4718-bd5a-9a432efd6ba3",
+            "category": "Bills",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "fafa5af0-ed2e-498c-ad76-1c443f8ba941",
+            "category": "Other",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          }
+        ],
+        "netWorth": [
+          {
+            "id": "b6dcf534-44f1-449e-8192-8c62c43eff30",
+            "month": "Jan 2026",
+            "cashBank": 0,
+            "investments": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "3d76c903-4f53-44db-b109-ecf4ddbf41b8",
+            "month": "Feb 2026",
+            "cashBank": 0,
+            "investments": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "38b044e8-29a3-427f-8b37-692188bd481f",
+            "month": "Mar 2026",
+            "cashBank": 0,
+            "investments": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "94f292a1-08d8-456c-a5a0-ee0c5a1173d2",
+            "month": "Apr 2026",
+            "cashBank": 0,
+            "investments": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "00b63f7f-43d2-4767-8665-9ea54d6e40df",
+            "month": "May 2026",
+            "cashBank": 0,
+            "investments": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          },
+          {
+            "id": "8916c093-3298-4940-960b-4a4220b825ea",
+            "month": "Jun 2026",
+            "cashBank": 0,
+            "investments": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "createdAt": "2026-04-27T16:16:52.303Z",
+            "updatedAt": "2026-04-27T16:16:52.303Z"
+          }
+        ],
+        "categories": [
+          "Investment",
+          "Food",
+          "Travel",
+          "Rent",
+          "Utilities",
+          "Shopping",
+          "Entertainment",
+          "Health",
+          "Education",
+          "Salary",
+          "Bills",
+          "Other"
+        ],
+        "accounts": [
+          "Cash",
+          "Bank",
+          "UPI",
+          "Credit Card",
+          "Savings",
+          "Investment"
+        ],
+        "settings": {
+          "currency": "INR",
+          "monthlySavingsGoal": 50000,
+          "emergencyFundTarget": 300000,
+          "defaultAccount": "Bank"
+        }
+      }
+    },
+    {
+      "id": "cf510727-ae4b-4e53-8976-edbb8d59399f",
+      "name": "QA Workspace",
+      "email": "qa-1777306649255@local.test",
+      "salt": "e6570a87fb5153edaafe6d51235bd10e",
+      "passwordHash": "58a95c2e23fa9f15db67c16b1e4977705dc570db9c787a002078dc179a8bab5f97802efac5be750c7255d5f5d992c8565cbfdbe3466c2e332c243eb6b954c8cb",
+      "createdAt": "2026-04-27T16:17:29.474Z",
+      "updatedAt": "2026-04-27T16:17:30.118Z",
+      "data": {
+        "transactions": [
+          {
+            "id": "852f6bcc-0a34-4ce1-a4dc-5552e1140620",
+            "date": "2026-04-26",
+            "type": "Income",
+            "amount": 100000,
+            "category": "Salary",
+            "account": "Bank",
+            "description": "Opening salary",
+            "notes": "Imported",
+            "updatedAt": "2026-04-27T16:17:30.118Z",
+            "createdAt": "2026-04-27T16:17:30.118Z"
+          },
+          {
+            "id": "1534b1d3-6134-4ec9-a994-10afb2fe5ff0",
+            "date": "2026-04-27",
+            "type": "Expense",
+            "amount": 12000,
+            "category": "Food",
+            "account": "UPI",
+            "description": "Groceries",
+            "notes": "Imported",
+            "updatedAt": "2026-04-27T16:17:30.118Z",
+            "createdAt": "2026-04-27T16:17:30.118Z"
+          }
+        ],
+        "budgets": [
+          {
+            "id": "1e6cee5d-d195-403b-a957-0e10e988df55",
+            "category": "Investment",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "3194a929-74e3-4e3e-910a-0d4657a46ef3",
+            "category": "Food",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "0b3fc92d-109d-4d6b-b8fa-730e36c9c9ee",
+            "category": "Travel",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "b8c6072f-ba49-4c90-aa48-2ce2d3ef7135",
+            "category": "Rent",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "db951ffb-db72-415c-b5f4-fbb8ce2faf02",
+            "category": "Utilities",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "da903b94-99e0-4050-bcc1-3662c12a11a6",
+            "category": "Shopping",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "9c7e057a-5b73-423b-a852-51d7c951de11",
+            "category": "Entertainment",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "90336105-abb4-4887-a0b9-664589be5c57",
+            "category": "Health",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "37a1a0d1-c4cb-45b6-9b19-a2938d63a439",
+            "category": "Education",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "d2f27aaf-e15c-4b9e-a23e-372c991746f1",
+            "category": "Bills",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "bcccf232-04a6-4da9-b8c0-75e0451f1b14",
+            "category": "Other",
+            "monthlyBudget": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          }
+        ],
+        "netWorth": [
+          {
+            "id": "4d8b1222-d43d-441f-94c9-41f6f0b83521",
+            "month": "Jan 2026",
+            "cashBank": 0,
+            "investments": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "6356965d-c729-4ddc-bb85-4f1660906a7f",
+            "month": "Feb 2026",
+            "cashBank": 0,
+            "investments": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "31a1b5e5-44fc-4f2d-bd9e-89e8ff363c58",
+            "month": "Mar 2026",
+            "cashBank": 0,
+            "investments": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "4ce86be6-0e75-4c1a-920d-16ea813c6e3a",
+            "month": "Apr 2026",
+            "cashBank": 0,
+            "investments": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "41c60226-12c2-4344-bf71-af55f9efb6a7",
+            "month": "May 2026",
+            "cashBank": 0,
+            "investments": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          },
+          {
+            "id": "a5d605ed-c1c2-4ad7-b0ac-3bcde007ea8d",
+            "month": "Jun 2026",
+            "cashBank": 0,
+            "investments": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "createdAt": "2026-04-27T16:17:29.474Z",
+            "updatedAt": "2026-04-27T16:17:29.474Z"
+          }
+        ],
+        "categories": [
+          "Investment",
+          "Food",
+          "Travel",
+          "Rent",
+          "Utilities",
+          "Shopping",
+          "Entertainment",
+          "Health",
+          "Education",
+          "Salary",
+          "Bills",
+          "Other"
+        ],
+        "accounts": [
+          "Cash",
+          "Bank",
+          "UPI",
+          "Credit Card",
+          "Savings",
+          "Investment"
+        ],
+        "settings": {
+          "currency": "INR",
+          "monthlySavingsGoal": 50000,
+          "emergencyFundTarget": 300000,
+          "defaultAccount": "Bank"
+        }
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "token": "0f7d74d80e1b86787e71b7e9b842043a20cf093f911b9a961c2581098f118944",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T15:58:35.981Z",
+      "expiresAt": "2026-05-04T15:58:35.981Z"
+    },
+    {
+      "token": "1f3317f413155d88ee3c305343e0c37ae202118502eabed00a92d30fa0009926",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T15:59:14.924Z",
+      "expiresAt": "2026-05-04T15:59:14.924Z"
+    },
+    {
+      "token": "918ac15e890b3638f4731d4cbf066da6971a6ae9f4a2be0bdf9cf9ce7b180aaa",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T15:59:51.339Z",
+      "expiresAt": "2026-05-04T15:59:51.339Z"
+    },
+    {
+      "token": "fc246a8b194a28c361e7ad821f8e36eb727b27ca5a88162ceb3ecbea6e13c8b5",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T16:00:10.997Z",
+      "expiresAt": "2026-05-04T16:00:10.997Z"
+    },
+    {
+      "token": "94414f7e128e608b63bc04f96cf62140492a360247cd6a7078a6e4d3ad8c2646",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T16:00:49.663Z",
+      "expiresAt": "2026-05-04T16:00:49.663Z"
+    },
+    {
+      "token": "46ba0d51d50f9f575e53bf0791970966b36a95173b25fc2eb0d0b27ca214168d",
+      "userId": "c7890658-47a6-44d6-bddb-6b18e0693a1a",
+      "createdAt": "2026-04-27T16:08:08.202Z",
+      "expiresAt": "2026-05-04T16:08:08.202Z"
+    },
+    {
+      "token": "8b1068557dbb85b7632fbb4665e0f80bb5094d10ba1aa0877321ff20f07bdeff",
+      "userId": "de5769e9-27a1-4c84-83ac-9350dcb9e2f4",
+      "createdAt": "2026-04-27T16:16:52.303Z",
+      "expiresAt": "2026-05-04T16:16:52.303Z"
+    },
+    {
+      "token": "49319e83400954cacb9a4370688bef4fafd90f997a289584a834b66043dc6124",
+      "userId": "cf510727-ae4b-4e53-8976-edbb8d59399f",
+      "createdAt": "2026-04-27T16:17:29.474Z",
+      "expiresAt": "2026-05-04T16:17:29.474Z"
+    },
+    {
+      "token": "31d83107f4d5eae100cd0aaf0c12072c833ca8fe82ea8a67a9edf132e3ddbdfb",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T16:17:49.781Z",
+      "expiresAt": "2026-05-04T16:17:49.781Z"
+    },
+    {
+      "token": "901538e18bd567ed12db9445619c183ab299e79c56f5f877f1fab47fe868baca",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T23:24:11.593Z",
+      "expiresAt": "2026-05-04T23:24:11.593Z"
+    },
+    {
+      "token": "7303afa99afdcece959ea59f295019b399022dd2c3f6772fefed99a7c495600a",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T23:24:56.804Z",
+      "expiresAt": "2026-05-04T23:24:56.804Z"
+    },
+    {
+      "token": "ae35b77c159e4faed7f1c387c4b83f134a5cb7de751c887f9586759d1109b0c1",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T23:25:21.745Z",
+      "expiresAt": "2026-05-04T23:25:21.745Z"
+    },
+    {
+      "token": "ab87713e99cbf8182b689cc8fbfd0175eb5103d32a47c64bca3f0fb241934d25",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T23:26:04.200Z",
+      "expiresAt": "2026-05-04T23:26:04.200Z"
+    },
+    {
+      "token": "f0d7fa4ef4152d8bdd9bf275fb65e4a82e485f09b90a5eb3785578d210c00b78",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T23:32:39.876Z",
+      "expiresAt": "2026-05-04T23:32:39.876Z"
+    },
+    {
+      "token": "d999a2f4b4ff4dac879274833d39570def9f0c0fd60f1300de06e2e6161b0230",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T23:38:57.276Z",
+      "expiresAt": "2026-05-04T23:38:57.276Z"
+    },
+    {
+      "token": "6e0b781c0a75d499ef2e246c3b9be5df25a3af8ade762e2f48c52050ed90eb6a",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T23:39:31.543Z",
+      "expiresAt": "2026-05-04T23:39:31.543Z"
+    },
+    {
+      "token": "5a3e823157dd3fb3fc69b86519019c0110cf4ae02dbfccb560b163a469c2ce86",
+      "userId": "c063d776-c752-4f98-b75a-853c7eee4f80",
+      "createdAt": "2026-04-27T23:41:15.509Z",
+      "expiresAt": "2026-05-04T23:41:15.509Z"
+    }
+  ]
+}
