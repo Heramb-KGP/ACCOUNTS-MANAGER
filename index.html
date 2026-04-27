@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071015" />
+    <title>Cura Accounts Manager</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="theme-aurora">
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <main id="authView" class="auth-view">
+      <section class="auth-stage" aria-label="Cura Accounts sign in">
+        <div class="auth-copy">
+          <p class="eyebrow">CuraHealthCare Accounts</p>
+          <h1>Cura Accounts Manager</h1>
+          <div class="auth-metrics" aria-label="Workbook modules">
+            <span>Transactions</span>
+            <span>Budgets</span>
+            <span>Monthly Summary</span>
+            <span>Net Worth</span>
+          </div>
+        </div>
+
+        <div class="auth-panel">
+          <div class="auth-tabs" role="tablist" aria-label="Authentication">
+            <button class="auth-tab active" data-auth-tab="login" type="button">Log in</button>
+            <button class="auth-tab" data-auth-tab="signup" type="button">Create account</button>
+          </div>
+
+          <form id="loginForm" class="auth-form active" autocomplete="on">
+            <label>
+              Email
+              <input name="email" type="email" value="demo@cura.health" autocomplete="email" required />
+            </label>
+            <label>
+              Password
+              <input name="password" type="password" value="demo123" autocomplete="current-password" required />
+            </label>
+            <button class="primary-btn" type="submit">Enter dashboard</button>
+            <button class="ghost-btn" id="demoLogin" type="button">Use demo account</button>
+          </form>
+
+          <form id="signupForm" class="auth-form" autocomplete="on">
+            <label>
+              Name
+              <input name="name" type="text" placeholder="Your name" autocomplete="name" required />
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+            </label>
+            <label>
+              Password
+              <input name="password" type="password" minlength="6" placeholder="6+ characters" autocomplete="new-password" required />
+            </label>
+            <button class="primary-btn" type="submit">Create dashboard</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <main id="appView" class="app-shell hidden">
+      <aside class="sidebar" aria-label="Main navigation">
+        <div class="brand-lockup">
+          <span class="brand-mark">CA</span>
+          <div>
+            <strong>Cura Accounts</strong>
+            <span id="userEmail">Workspace</span>
+          </div>
+        </div>
+
+        <nav class="nav-stack">
+          <button class="nav-btn active" data-view="dashboard" type="button">Dashboard</button>
+          <button class="nav-btn" data-view="addtransaction" type="button">Add Entry</button>
+          <button class="nav-btn" data-view="transactions" type="button">Transactions</button>
+          <button class="nav-btn" data-view="budgets" type="button">Budgets</button>
+          <button class="nav-btn" data-view="networth" type="button">Net Worth</button>
+          <button class="nav-btn" data-view="reports" type="button">Reports</button>
+          <button class="nav-btn" data-view="settings" type="button">Settings</button>
+        </nav>
+
+        <section class="theme-box" aria-label="Themes">
+          <p>Themes</p>
+          <div id="themePicker" class="theme-picker"></div>
+        </section>
+
+        <button id="logoutBtn" class="ghost-btn logout-btn" type="button">Log out</button>
+      </aside>
+
+      <section class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Finance control room</p>
+            <h2 id="viewTitle">Dashboard</h2>
+          </div>
+          <div class="topbar-actions">
+            <label class="month-control">
+              Month
+              <select id="monthSelect"></select>
+            </label>
+            <a class="download-link" href="/api/export/report.pdf">PDF report</a>
+            <button id="addTransactionShortcut" class="primary-btn" type="button">Add transaction</button>
+          </div>
+        </header>
+
+        <section id="dashboardView" class="view active-view">
+          <div id="metricGrid" class="metric-grid"></div>
+          <section id="emptyState" class="empty-state hidden">
+            <div>
+              <span>New workspace</span>
+              <strong>Start with your first entry or import your spreadsheet CSV.</strong>
+            </div>
+            <div class="empty-actions">
+              <button id="emptyAddIncome" class="primary-btn" type="button">Add income</button>
+              <button id="emptyImportCsv" class="ghost-btn" type="button">Import CSV</button>
+            </div>
+          </section>
+          <div class="insight-strip">
+            <section class="insight-card" id="accountInsight"></section>
+            <section class="insight-card" id="goalInsight"></section>
+            <section class="insight-card" id="riskInsight"></section>
+          </div>
+          <div id="ratioGrid" class="ratio-grid"></div>
+
+          <div class="analytics-grid">
+            <section class="chart-panel chart-large">
+              <div class="panel-heading">
+                <span>Monthly Cashflow</span>
+                <strong id="monthlyTotal">0</strong>
+              </div>
+              <canvas id="monthlyChart"></canvas>
+            </section>
+            <section class="chart-panel">
+              <div class="panel-heading">
+                <span>Cashflow Mix</span>
+                <strong id="cashflowMixTotal">0</strong>
+              </div>
+              <canvas id="cashflowChart"></canvas>
+            </section>
+          </div>
+
+          <div class="analytics-grid">
+            <section class="chart-panel">
+              <div class="panel-heading">
+                <span>Category Spend</span>
+                <strong id="categoryTotal">0</strong>
+              </div>
+              <canvas id="categoryChart"></canvas>
+            </section>
+            <section class="chart-panel">
+              <div class="panel-heading">
+                <span>Account Balances</span>
+                <strong id="accountBalanceTotal">0</strong>
+              </div>
+              <canvas id="accountChart"></canvas>
+            </section>
+          </div>
+        </section>
+
+        <section id="addtransactionView" class="view">
+          <div class="entry-layout">
+            <section class="composer-panel transaction-entry-panel" id="transactionComposer">
+              <div class="panel-heading">
+                <span>New transaction</span>
+                <button id="clearTransactionForm" class="mini-btn" type="button">Clear</button>
+              </div>
+              <form id="transactionForm" class="transaction-form transaction-form-large">
+                <input type="hidden" name="id" />
+                <label>
+                  Date
+                  <input name="date" type="date" required />
+                </label>
+                <label>
+                  Type
+                  <select name="type">
+                    <option>Income</option>
+                    <option>Expense</option>
+                    <option>Investment</option>
+                  </select>
+                </label>
+                <label>
+                  Amount
+                  <input name="amount" type="number" min="0" step="0.01" placeholder="0.00" required />
+                </label>
+                <label>
+                  Category
+                  <input name="category" list="categoryList" required />
+                </label>
+                <label>
+                  Account
+                  <input name="account" list="accountList" required />
+                </label>
+                <label>
+                  Description / Reason
+                  <input name="description" type="text" maxlength="180" placeholder="What was this for?" />
+                </label>
+                <label class="wide-field">
+                  Notes
+                  <input name="notes" type="text" maxlength="180" placeholder="Optional note" />
+                </label>
+                <button class="primary-btn wide-field" type="submit">Save transaction</button>
+              </form>
+            </section>
+            <section class="data-panel">
+              <div class="panel-heading">
+                <span>Quick guide</span>
+                <strong id="entryModeLabel">Expense</strong>
+              </div>
+              <div class="entry-help">
+                <button class="quick-type active" data-quick-type="Expense" type="button">Expense</button>
+                <button class="quick-type" data-quick-type="Income" type="button">Income</button>
+                <button class="quick-type" data-quick-type="Investment" type="button">Investment</button>
+              </div>
+              <div id="entryPreview" class="entry-preview"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="transactionsView" class="view">
+          <div class="toolbar">
+            <label>
+              Search
+              <input id="searchInput" type="search" placeholder="Category, account, note" />
+            </label>
+            <label>
+              Type
+              <select id="typeFilter">
+                <option>All</option>
+                <option>Income</option>
+                <option>Expense</option>
+                <option>Investment</option>
+              </select>
+            </label>
+            <a class="download-link" href="/api/export/transactions.csv">Export CSV</a>
+            <button id="importCsvBtn" class="ghost-btn" type="button">Import CSV</button>
+            <input id="csvFileInput" class="hidden" type="file" accept=".csv,text/csv" />
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Type</th>
+                  <th>Amount</th>
+                  <th>Category</th>
+                  <th>Account</th>
+                  <th>Description / Reason</th>
+                  <th>Month</th>
+                  <th>Week</th>
+                  <th>Running Balance</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="transactionsTable"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="budgetsView" class="view">
+          <div class="budget-layout">
+            <section class="budget-board">
+              <div class="panel-heading">
+                <span>Budget Tracker</span>
+                <strong id="budgetHealth">0%</strong>
+              </div>
+              <div id="budgetRows" class="budget-rows"></div>
+            </section>
+            <section class="chart-panel">
+              <div class="panel-heading">
+                <span>Budget Usage</span>
+                <strong id="budgetTotal">0</strong>
+              </div>
+              <canvas id="budgetChart"></canvas>
+            </section>
+          </div>
+        </section>
+
+        <section id="networthView" class="view">
+          <div class="networth-layout">
+            <section class="composer-panel">
+              <div class="panel-heading">
+                <span>Net Worth Entry</span>
+                <button id="clearNetWorthForm" class="mini-btn" type="button">Clear</button>
+              </div>
+              <form id="netWorthForm" class="transaction-form">
+                <input type="hidden" name="id" />
+                <label>
+                  Month
+                  <input name="month" type="text" placeholder="Apr 2026" required />
+                </label>
+                <label>
+                  Cash / Bank
+                  <input name="cashBank" type="number" min="0" step="0.01" required />
+                </label>
+                <label>
+                  Investments
+                  <input name="investments" type="number" min="0" step="0.01" required />
+                </label>
+                <label>
+                  Assets
+                  <input name="assets" type="number" min="0" step="0.01" required />
+                </label>
+                <label>
+                  Liabilities
+                  <input name="liabilities" type="number" min="0" step="0.01" required />
+                </label>
+                <button class="primary-btn wide-field" type="submit">Save net worth</button>
+              </form>
+            </section>
+            <section class="chart-panel">
+              <div class="panel-heading">
+                <span>Net Worth Tracker</span>
+                <strong id="netWorthTotal">0</strong>
+              </div>
+              <canvas id="netWorthChart"></canvas>
+            </section>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Month</th>
+                  <th>Cash / Bank</th>
+                  <th>Investments</th>
+                  <th>Assets</th>
+                  <th>Liabilities</th>
+                  <th>Net Worth</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="netWorthTable"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="settingsView" class="view">
+          <div class="settings-layout">
+            <section class="composer-panel">
+              <div class="panel-heading">
+                <span>Planning Targets</span>
+                <strong>INR</strong>
+              </div>
+              <form id="settingsForm" class="transaction-form">
+                <label>
+                  Monthly savings goal
+                  <input name="monthlySavingsGoal" type="number" min="0" step="0.01" />
+                </label>
+                <label>
+                  Emergency fund target
+                  <input name="emergencyFundTarget" type="number" min="0" step="0.01" />
+                </label>
+                <label class="wide-field">
+                  Default account
+                  <input name="defaultAccount" list="accountList" />
+                </label>
+                <button class="primary-btn wide-field" type="submit">Save settings</button>
+              </form>
+            </section>
+            <section class="data-panel">
+              <div class="panel-heading">
+                <span>Data Tools</span>
+                <strong id="dataFootprint">0 entries</strong>
+              </div>
+              <div class="data-actions">
+                <a class="download-link" href="/api/export/backup.json">Download backup</a>
+                <a class="download-link" href="/api/export/transactions.csv">Export transactions</a>
+                <button id="settingsImportCsvBtn" class="ghost-btn" type="button">Import transactions</button>
+                <button id="loadDemoBtn" class="ghost-btn" type="button">Load sample data</button>
+              </div>
+            </section>
+          </div>
+        </section>
+
+        <section id="reportsView" class="view">
+          <div class="settings-layout">
+            <section class="data-panel">
+              <div class="panel-heading">
+                <span>Download Center</span>
+                <strong id="reportFootprint">0 entries</strong>
+              </div>
+              <div class="data-actions report-actions">
+                <a class="download-link" href="/api/export/report.pdf">Finance PDF report</a>
+                <button id="printReportBtn" class="ghost-btn" type="button">Print / Save PDF</button>
+                <a class="download-link" href="/api/export/transactions.csv">Transactions CSV</a>
+                <a class="download-link" href="/api/export/backup.json">Full JSON backup</a>
+                <button id="reportsImportCsvBtn" class="ghost-btn" type="button">Import transactions CSV</button>
+              </div>
+            </section>
+            <section class="chart-panel">
+              <div class="panel-heading">
+                <span>Export Coverage</span>
+                <strong>PDF / CSV / JSON</strong>
+              </div>
+              <div id="reportSummary" class="report-summary"></div>
+            </section>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <div id="confirmDialog" class="confirm-dialog hidden" role="dialog" aria-modal="true" aria-labelledby="confirmTitle">
+      <div class="confirm-card">
+        <h3 id="confirmTitle">Confirm action</h3>
+        <p id="confirmMessage"></p>
+        <div class="confirm-actions">
+          <button id="confirmCancel" class="ghost-btn" type="button">Cancel</button>
+          <button id="confirmOk" class="primary-btn" type="button">Confirm</button>
+        </div>
+      </div>
+    </div>
+
+    <datalist id="categoryList"></datalist>
+    <datalist id="accountList"></datalist>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
